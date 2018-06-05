@@ -1,5 +1,5 @@
 require 'pry'
-
+binding.pry
 def hello(array)
   i = 0
   while i < array.length
@@ -10,4 +10,4 @@ end
 
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
-binding.pry
+
